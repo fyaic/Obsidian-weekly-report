@@ -1,8 +1,8 @@
-# Obsidian AI Weekly: 无感自动项目管理原型
+# Obsidian AI Weekly: 无感自动【知识增长】汇报PoC
 
 ## 1. 项目愿景与方法论 (Vision & Methodology)
 
-本周报生成器，是一次关于 **"无感自动项目管理 (Imperceptible Automatic Project Management)"** 的 AI 解决方案MVP。
+本周报生成器，是一次关于 **"无感自动知识增长 (Imperceptible Automatic Project Management)"** 的 AI 解决方案MVP。
 
 **思路：**
 > **知识库 (Knowledge Base) -> LLM 分析 + 中转 -> 进度跟进中台 (Progress Tracking Middleware)**
@@ -98,5 +98,6 @@ LINEAR_API_KEY=your_linear_api_key_here
     *   *Note: 本项目演示了 Linear 的集成，但你可以轻松替换为 Jira、Trello 或 GitHub Issues 的 API。*
 *   **Vault Path**: 运行脚本时通过 `--vault` 参数指定。
     *   *Note: 虽然默认扫描 Obsidian (.md) 文件，但此逻辑适用于任何基于文本的知识库 (Notion Export, Logseq, VS Code Notes)。*
+
 
 
